@@ -1,0 +1,46 @@
+runs:
+- backend_name: tvmaotplus
+  comment: null
+  config:
+    allow_extensions: false
+    etiss.install_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/install/etiss
+    etiss.src_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/etiss
+    etissvp.script: /work/git/mlonmcu/mlonmcu/workspace_default/deps/install/etiss/bin/run_helper.sh
+    filter_cols.drop: Framework
+    layergen.exe: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/layergen/gen_model.py
+    llvm.install_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/install/llvm
+    mlif.debug_symbols: '1'
+    mlif.num_threads: '12'
+    mlif.src_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/mlif
+    rename_cols.mapping: '{''Frontend'':''Frontend2''}'
+    riscv_gcc.dl_url: https://syncandshare.lrz.de/dl/fiWBtDLWz17RBc1Yd4VDW7/GCC/default/2023.11.27/Ubuntu/20.04/rv32gc_ilp32d.tar.xz
+    riscv_gcc.dl_url_pext: https://syncandshare.lrz.de/dl/fiWBtDLWz17RBc1Yd4VDW7/GCC/pext/2022.04.28/Ubuntu/20.04/rv32gcp_ilp32d.tar.xz
+    riscv_gcc.dl_url_vext: https://syncandshare.lrz.de/dl/fiWBtDLWz17RBc1Yd4VDW7/GCC/default/2023.11.27/Ubuntu/20.04/rv32gcv_ilp32d.tar.xz
+    riscv_gcc.install_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/install/riscv_gcc
+    riscv_gcc.name: riscv32-unknown-elf
+    riscv_gcc.variant: unknown
+    runs_per_stage: '0'
+    session.executor: process_pool
+    session.use_init_stage: '0'
+    tvm.build_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/build/tvm
+    tvm.configs_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/tvm/configs
+    tvm.pythonpath: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/tvm/python
+    tvm.src_dir: /work/git/mlonmcu/mlonmcu/workspace_default/deps/src/tvm
+  feature_names: []
+  framework_name: null
+  frontend_names:
+  - tflite
+  - relay
+  - onnx
+  - pb
+  - paddle
+  - layergen
+  idx: 1
+  model_name: sine_model
+  platform_names:
+  - mlif
+  postprocess_names:
+  - rename_cols
+  - filter_cols
+  # - analyse_dump
+  target_name: etiss

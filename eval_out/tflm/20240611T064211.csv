@@ -1,0 +1,5 @@
+TS;Host;Cores;Threads;Executor;Mult;P;P_;B;N;Elapsed;CPU;Load
+20240611T064211;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;2;8221.10;0;1.93
+20240611T064211;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;2;4433.13;0;11.09
+20240611T064211;return.eda.cit.tum.de;18;36;rpc;64;36;4;4;2;3572.52;0;10.55
+20240611T064211;return.eda.cit.tum.de;18;36;rpc;64;36;8;8;2;3610.39;0;1.42

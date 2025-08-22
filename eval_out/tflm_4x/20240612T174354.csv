@@ -1,0 +1,14 @@
+TS;Host;Cores;Threads;Executor;Mult;P;P_;B;N;Elapsed;CPU;Load
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;1;4973.54;0;1.08
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;2;2751.92;0;1.15
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;4;1599.62;0;1.06
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;8;1367.63;0;0.54
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;1;2673.74;0;1.10
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;2;1506.48;0;0.35
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;4;1259.69;0;1.13
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;8;1314.13;0;0.40
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;4;4;1;1577.59;0;0.46
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;4;4;2;1335.02;0;1.41
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;4;4;4;1335.24;0;0.44
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;8;8;1;1306.19;0;1.42
+20240612T174354;return.eda.cit.tum.de;18;36;rpc;64;36;8;8;2;1369.78;0;0.47

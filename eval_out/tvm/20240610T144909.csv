@@ -1,0 +1,2 @@
+TS;Host;Cores;Threads;Executor;Mult;P;P_;B;N;Elapsed;CPU;Load
+20240610T144909;return.eda.cit.tum.de;18;36;process_pool;1;4;0;1;4;12.50;187;0.84

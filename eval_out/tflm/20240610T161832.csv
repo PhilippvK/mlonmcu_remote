@@ -1,0 +1,4 @@
+TS;Host;Cores;Threads;Executor;Mult;P;P_;B;N;Elapsed;CPU;Load
+20240610T161832;return.eda.cit.tum.de;18;36;rpc;64;36;1;1;1;15207.01;0;1.64
+20240610T161832;return.eda.cit.tum.de;18;36;rpc;64;36;2;2;1;7956.74;0;1.50
+20240610T161832;return.eda.cit.tum.de;18;36;rpc;64;36;8;8;1;3786.26;0;1.46
